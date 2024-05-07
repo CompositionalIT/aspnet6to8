@@ -1,5 +1,5 @@
 STORAGE: NONE
-RESTRICTION: == net6.0
+RESTRICTION: == net8.0
 NUGET
   remote: https://api.nuget.org/v3/index.json
     FSharp.Core (8.0.200)
@@ -15,9 +15,6 @@ NUGET
       FSharp.Core (>= 5.0)
     Microsoft.IO.RecyclableMemoryStream (3.0)
     Newtonsoft.Json (13.0.3)
-    System.Runtime.CompilerServices.Unsafe (6.0)
     System.Text.Encodings.Web (8.0)
-      System.Runtime.CompilerServices.Unsafe (>= 6.0)
     System.Text.Json (8.0.3)
-      System.Runtime.CompilerServices.Unsafe (>= 6.0)
       System.Text.Encodings.Web (>= 8.0)
